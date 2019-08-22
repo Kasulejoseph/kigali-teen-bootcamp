@@ -49,9 +49,11 @@ body {
     font-size: 32px;
 
 }
+
 .main-about {
     background-image: url("./assets/title1.png")
 }
+
 span {
     color: #fff;
     font-size: 30px;
@@ -71,12 +73,14 @@ span {
     padding-bottom: 10px;
 
 }
-
+.nav{
+    position: fixed;
+}
 ul {
     background-color: #333;
     margin: 0;
-
     display: flex;
+    width: 1400px;
     justify-content: center;
     text-align: center;
     overflow: hidden;
@@ -88,4 +92,48 @@ li {
     padding: 12px;
     text-align: center;
     color: #fff;
+}
+
+.main-favorite {
+    margin: 0 100px;
+    /* background-color: aquamarine; */
+    height: 350px;
+    padding: 20px;
+    text-align: center;
+}
+.inner-favorite h1{
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px;
+}
+.inner-favorite h1, h3{
+    color: #0a0c1a;
+}
+
+.inner-favorite img {
+    border: 1px solid #333;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    margin: 10px;
+}
+
+footer {
+    background-color: #333;
+    height: 200px;
+    text-align: center;
+}
+footer h1{
+    color: #fff;
+    padding: 10px;
+}
+
+footer img{
+    border: 1px solid #333;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    margin: 10px;
 }
